@@ -156,13 +156,19 @@ a{
 hr{
 		margin: 0px;
 }
+section{
+		display: flex;
+		flex-direction: row;
+		justify-content: end;
+		width: 100%;
 
+}
 .Rastreio-zone{
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: 50px 35%;
+		margin: 50px 10%;
 		font-weight: bold;
 		color: rgb(42, 42, 42);
 		border: 3px solid #CCC;
@@ -211,7 +217,22 @@ hr{
 	background-color: rgb(91, 120, 255);
 }
 
+.resultado{
 
+	display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 50px 2%;
+		font-weight: bold;
+		color: rgb(42, 42, 42);
+		border: 3px solid #CCC;
+		border-radius: 13px;
+		width: 350px;
+		height: 350px;
+		overflow: auto;
+
+}
 
 
 footer{	display: flex;
